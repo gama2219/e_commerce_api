@@ -5,3 +5,4 @@ django-oauth-toolkit
 djangorestframework
 djangorestframework-simplejwt
 django-cors-headers
+django-unfold

@@ -34,6 +34,7 @@ SITE_ID=1
 # Application definition
 
 INSTALLED_APPS = [
+    'unfold',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -201,3 +202,8 @@ MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR), "media")
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+UNFOLD = {
+    "SITE_HEADER": "OMACHE administration",
+}
