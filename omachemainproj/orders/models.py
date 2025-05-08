@@ -2,8 +2,6 @@ from django.db import models
 from django.contrib.auth.models import User
 from product.models import product
 import uuid
-
-
 # Create your models here.
 
 trackstatus=[('created','created'),('paid','paid'),
@@ -14,7 +12,7 @@ payment_stat=[('requested','requested'),('paid','paid')]
 
 
 class order_payment(models.Model):
-    order_token=models.CharField(max_length=37,unique=True,editable=False,default=uuid.uuid4())
+    order_token=models.UUIDField(max_length=13,default=uuid.uuid4,editable=False)
     mpesa_phone=models.IntegerField()
     payment_status=models.CharField(choices=payment_stat,max_length=20)
 
