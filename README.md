@@ -3,7 +3,7 @@ Django REST API for a comprehensive e-commerce platform. This API facilitates bo
 
 Introduction
 
-O-Mache is a complete e-commerce platform built with Django REST Framework for the backend and Vite React for the frontend. It provides a robust backend API for user account management, product listing, shopping cart, orders, and payment processing. The platform supports JWT authentication, product categorization, stock management, and order tracking functionalities.
+O-Mache is a complete e-commerce platform built with Django REST Framework for the backend. It provides a robust backend API for user account management, product listing, shopping cart, orders, and payment processing. The platform supports JWT authentication, product categorization, stock management, and order tracking functionalities.
 
 System Architecture
 
