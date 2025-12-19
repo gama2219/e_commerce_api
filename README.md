@@ -96,7 +96,7 @@ Before proceeding, ensure you have Python and pip installed.
     pip install -r requirements.txt
     ```
 
-2.  Run Migrations and Create Superuser:After cloning the repository from GitHub, follow these steps to set up the project:
+2.  Run Migrations and Create Superuser:
 
     ```bash
     python manage.py makemigrations
